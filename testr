@@ -41,7 +41,7 @@ end
 
 function Library:CreateWindow(Config, Parent)
 	local WindowInit = {}
-	local Folder = game:GetObjects("rbxassetid://7141683860")[1]
+	local Folder = game:GetObjects("rbxassetid://5553946656")[1]
 	local Screen = Folder.Bracket:Clone()
 	local Main = Screen.Main
 	local Holder = Main.Holder
@@ -136,7 +136,7 @@ function Library:CreateWindow(Config, Parent)
 	end
 
 	function WindowInit:SetBackground(ImageId)
-		Holder.Image = "rbxassetid://5553946656" .. ImageId
+		Holder.Image = "rbxassetid://" .. ImageId
 	end
 
 	function WindowInit:SetBackgroundColor(Color)
